@@ -1,0 +1,55 @@
+:root{
+	--primary:#dddddd;
+	--black:#222831;
+	--blue-dark:#30475e;
+  --red-candy:#f05454;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+body {
+    font-family: 'RocknRoll One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.init {
+    background-color: var(--red-candy);
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.whatis {
+    padding: 50px;
+    text-align: center;
+    background-color: var(--blue-dark);
+}
+.init h1 {
+    text-align: center;
+}
+.text-center {
+   text-align: center;
+}
+.search {
+    background-color: var(--blue-dark);
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.form {
+    margin: 0;
+    padding: 20px;
+    background-color: var(--primary);
+}
+input {
+    padding: 20px;
+    border-radius: 20px;
+}
+footer {
+    background-color: var(--red-candy);
+    text-align: center;
+}
