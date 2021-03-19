@@ -35,10 +35,20 @@ body {
 }
 .search {
     background-color: var(--blue-dark);
+    display: flex;
+    flex-direction: row;
     text-align: center;
     padding: 10px;
     
 
+}
+.icons-search {
+    text-align: right;
+
+}
+i {
+    padding: -10px;
+    margin-left: 500px;
 }
 .form {
     margin: 0;

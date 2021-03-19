@@ -20,6 +20,7 @@
     <title>Search App</title>
   </head>
   <body>
+	 <!-- Este es un comentario -->
     <div class="init">
       <h1>SearchApp</h1>
       <p class="text-center">¡Buscar nunca fue tan fácil!</p>
@@ -37,13 +38,20 @@
       <h4>A buscar se ha dicho!</h4>
     </div>
     <div class="form">
-      <form class="home__form" title="Google">
-        <h4>Buscar en Google</h4>
-        <input
-          type="text"
-          class="google-search"
-          placeholder="Buscar en Google o escribir una URL"
-        />
+    <div>
+        <form class="home__form" title="Google">
+          <h4>Buscar en Google</h4>
+          <input
+            type="text"
+            class="google-search"
+            placeholder="Buscar en Google o escribir una URL"
+          />
+          <i class="fab fa-google fa-5x"></i>
+        <div class="icons-search">
+       
+        </div>
+         
+    </div>
         <form action="home_form" title="Youtube">
           <h4>Buscar en Youtube</h4>
           <input
@@ -62,6 +70,10 @@
                 <h4>Buscar en Instagram</h4>
                 <input type="text" class="ig-search" placeholder="Buscar en Instagram">
             </form>
+            <form action="home_form">
+              <h4>Buscar en Spotify</h4>
+              <input type="text" class="spotify-search" placeholder="Buscar en Spotify">
+            </form>
           </form>
         </form>
       </form>
@@ -76,5 +88,6 @@
     <script src="js/search-yt.js"></script>
     <script src="js/search-wiki.js"></script>
     <script src="js/search-ig.js"></script>
+    <script src="js/search-spotify.js"></script>
   </body>
 </html>
